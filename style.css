@@ -453,7 +453,7 @@ a{
         text-align:center;
         margin:20% 0px;
         h3{
-            font-size:2rem;
+            font-size:1.8rem;
             font-weight:600;
         }
 
@@ -1027,8 +1027,97 @@ footer{
 }
 
 @media(max-width:400px){
+    nav ul{
+        li{
+            font-size: 0.4em;
+        }
+        a{
+            font-size:1.4em;
+        }
+    }
+
+      main{
+        height:75dvh;
+      }
+
+      .products img{
+        border-radius:50%;
+        height:220px;
+        width:220px;
+        border:hsl(137, 98%, 43%) 5px solid;
+        margin:5%;
+        padding:10px;
+    }
 
 
+    .section-3{
+        img{
+            height:300px;
+        }
+    }
+    
+    .services img{
+        border-radius:50%;
+        height:220px;
+        width:220px;
+        border:hsl(137, 98%, 43%) 5px solid;
+        margin:5%;
+        padding:10px;
+    }
+  
+    .profile{
+        h3{
+            font-size:1.2rem;
+            font-weight:600;
+        }
+        img{
+          width: 250px;
+          height:250px;
+          border:5px hsl(137, 98%, 43%) dashed;
+          margin:50px 0px;
+        }
+    }
+
+    .cont h1{
+        padding-top:45%;
+    }
+
+    .contact-left-title h2{
+        font-size:30px;
+    }
+
+    .contact-inputs{
+        width:250px;
+    }
+
+    .contact-left button{
+        padding:8px 30px;
+    }
+    .cont-heading{
+        font-size:1rem;
+    }
+    .sect-1 p{
+        font-size:0.3rem;
+        line-height: 1rem;
+        text-align:center;
+    }
+
+    .sect-1 summary{
+        font-size:0.5rem;
+    }
+    .sect-1 details{
+        height:80px;
+        line-height:90px;
+
+    }
+    .sect-1{
+        a{
+            font-size:0.5rem;
+        }
+    }
+
+
+    
 }
 
 @media(max-width:360px){
