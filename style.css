@@ -802,7 +802,7 @@ footer{
     }
 
     nav ul{
-        display:block;
+        display:none;
         position:fixed;
         background:#01db6e;
         right:0;
