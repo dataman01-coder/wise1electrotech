@@ -1131,4 +1131,7 @@ footer{
     .headings p{
         padding:0;
     }
+    .section-1{
+        padding-top:0;
+    }
 }
