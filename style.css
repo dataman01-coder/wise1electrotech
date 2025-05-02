@@ -285,7 +285,7 @@ main{
 
 .powerlines img{
     height:350px;
-    width:300px;
+    width:100%;
     margin:3% 0;
     padding: 5px;
 }
