@@ -1134,4 +1134,7 @@ footer{
     .section-1{
         padding-top:0;
     }
+    nav ul{
+        background:  hsl(306, 100%, 50%);
+    }
 }
