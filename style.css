@@ -979,7 +979,7 @@ footer{
         border-radius:50%;
         height:220px;
         width:220px;
-        border:hsl(137, 98%, 43%) 5px solid;
+        border:hsl(0, 0%, 0%) 5px solid;
         margin:5%;
         padding:10px;
     }
@@ -995,7 +995,7 @@ footer{
         border-radius:50%;
         height:220px;
         width:220px;
-        border:hsl(137, 98%, 43%) 5px solid;
+        border:hsl(0, 0%, 0%) 5px solid;
         margin:5%;
         padding:10px;
     }
@@ -1008,7 +1008,7 @@ footer{
         img{
           width: 250px;
           height:250px;
-          border:5px hsl(137, 98%, 43%) dashed;
+          border:5px hsl(0, 0%, 0%) dashed;
           margin:50px 0px;
         }
     }
