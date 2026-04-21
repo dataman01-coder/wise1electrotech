@@ -1155,3 +1155,93 @@ footer{
         font-size:1.5rem;
     }
 }
+
+
+
+/*FOR THE INTERNS PAGE ONLY  */
+
+.top{
+    height:45dvh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{
+    width:80%;
+    margin:0 auto;
+}
+.top h1{
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+.top p{
+    margin-top: 5px;
+}
+.agree{
+    display: flex;
+    gap: 20px;
+}
+
+.agree a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(0, 187, 125);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+
+.sec-01{
+    display: flex;
+    align-items: flex-end;
+    width:90%;
+    margin-top: 10%;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sec-01 input{
+    border: solid 2px rgb(35, 152, 113);
+    padding: 50px 8px;
+    background-color: aquamarine;
+}
+
+.sec-02 h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sec-03{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.sec-03 .field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-03 .field input{
+    width:400px;
+    border: solid 2px black;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.submit-btn{
+    background-color: aquamarine;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-left: 75.5%;
+    cursor:pointer;
+}
