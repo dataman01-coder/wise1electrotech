@@ -1167,14 +1167,11 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align:center;
 }
 
 
 
-.container{
-    width:80%;
-    margin:0 auto;
-}
 .top h1{
     font-size: 3rem;
     margin-bottom: 0px;
