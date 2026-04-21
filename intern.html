@@ -48,42 +48,43 @@
     <!-- FORM -->
     <form action="https://api.web3forms.com/submit" method="POST" class="container">
         <input type="hidden" name="access_key" value="ad5d414c-79a5-40fe-a22d-1290e365d6e9">
+        <input type="hidden" name="subject" value="New Intern Form Submission:">
         <!-- passport section -->
         <div class="sec-01">
-            <input type="file" placeholder="Upload your passport picture">
-            <label for="file">Upload your passport picture</label>
+            <input type="file" placeholder="Upload your passport picture" name="passport">
+            <label for="passport">Upload your passport picture</label>
         </div>
         <div class="sec-02">
             <h1>Personal Information</h1>
         </div>
         <div class="sec-03">
             <div class="field">
-                <label for="">Name</label>
-                <input type="text">
+                <label for="name">Name</label>
+                <input type="text" name="name" required placeholder="Enter your first_name">
             </div>
             <div class="field">
-                <label for="">Last Name</label>
-                <input type="text">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" required placeholder="Enter your last_name">
             </div>
         </div>
         <div class="sec-03">
             <div class="field">
                 <label for="">Email</label>
-                <input type="text">
+                <input type="email" name="name" required placeholder="Enter your first_name">
             </div>
             <div class="field">
-                <label for="">Date of birth</label>
-                <input type="text">
+                <label for="dateofbirth">Date of birth</label>
+                <input type="date" name="dateofbirth" required placeholder="Select your date of birth">
             </div>
         </div>
         <div class="sec-03">
             <div class="field">
-                <label for="">Gender</label>
-                <input type="text">
+                <label for="gender">Gender</label>
+                <input type="text" name="gender" required placeholder="Male/Female">
             </div>
             <div class="field">
-                <label for="">Marital Status</label>
-                <input type="text">
+                <label for="status">Marital Status</label>
+                <input type="text" name="status" required placeholder="Married/Single">
             </div>
         </div>
         <div class="sec-02">
@@ -91,28 +92,28 @@
         </div>
         <div class="sec-03">
             <div class="field">
-                <label for="">City</label>
-                <input type="text">
+                <label for="city">City</label>
+                <input type="text" name="city" required placeholder="Enter your city name">
             </div>
             <div class="field">
-                <label for="">State</label>
-                <input type="text">
-            </div>
-        </div>
-        <div class="sec-03">
-            <div class="field">
-                <label for="">Home address</label>
-                <input type="text">
+                <label for="state">State</label>
+                <input type="text" name="state" required placeholder="Enter your state">
             </div>
         </div>
         <div class="sec-03">
             <div class="field">
-                <label for="">Phone Number</label>
-                <input type="text">
+                <label for="address">Home address</label>
+                <input type="text" name="address" required placeholder="Enter your Home Address">
+            </div>
+        </div>
+        <div class="sec-03">
+            <div class="field">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" required placeholder="Enter your phone number">
             </div>
             <div class="field">
-                <label for="">Nationality</label>
-                <input type="text">
+                <label for="nationality">Nationality</label>
+                <input type="text" name="nationality" required placeholder="Enter your first_name">
             </div>
         </div>
         <div class="sec-02">
@@ -120,25 +121,25 @@
         </div>
         <div class="sec-03">
             <div class="field">
-                <label for="">Contact persons name</label>
-                <input type="text">
+                <label for="c.p.n">Contact persons name</label>
+                <input type="text" name="c.p.n" required placeholder="Who should we contac in case of emergency?">
             </div>
             <div class="field">
-                <label for="">Relationship</label>
-                <input type="text">
+                <label for="relationship">Relationship</label>
+                <input type="text" name="relationship" required placeholder="What relationship do you have with the contact person?">
             </div>
         </div>
         <div class="sec-03">
             <div class="field">
-                <label for="">Phone Number</label>
-                <input type="text">
+                <label for="num">Phone Number</label>
+                <input type="tel" name="num" required placeholder="Enter the contact persons number">
             </div>
             <div class="field">
-                <label for="">Email Address</label>
-                <input type="text">
+                <label for="c.mail">Email Address</label>
+                <input type="email" name="c.mail" placeholder="Enter contact persons mail if any">
             </div>
         </div>
-        <button type="submit" class="submit-btn">Done & Submit</button>
+        <button type="submit" class="submit-btn" value="Done & Submit">Done & Submit</button>
     </form>
             
         <!-- FOOTER ELEMENTS/INFO -->
