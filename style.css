@@ -1255,7 +1255,11 @@ footer{
 
     .top h1{
     font-size: 1.5rem;
+    text-align:center;
 }
+    .top p{
+        text-align:center;
+    }
 
 .agree{
     display: flex;
@@ -1303,13 +1307,10 @@ footer{
         margin:0 auto;
     }
     .sec-03 .field input{
-        width:80dvw;
+        width:90dvw;
         border: solid 2px black;
         height: 35px;
         border-radius: 5px;
     }
 
-    .sec-03 .field .Home-address{
-        width:80dvw;
-    }
 }
